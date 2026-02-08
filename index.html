@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Be My Valentine</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="card">
+      <div class="glow" aria-hidden="true"></div>
+      <div id="celebration" class="celebration" aria-hidden="true"></div>
+      <h1>Will you be my valentine?</h1>
+      <p class="subtitle">I made this just for you.</p>
+
+      <div class="actions">
+        <button id="yes" class="btn btn-yes">Yes</button>
+        <button id="no" class="btn btn-no" aria-disabled="true" title="Nice try">No</button>
+      </div>
+
+      <section id="result" class="result hidden" aria-live="polite">
+        <h2>Right answer.</h2>
+        <p>My Valentine forever 😘🥰💋🤗💕💞💘</p>
+        <div class="photo-wrap">
+          <div id="photo-celebration" class="photo-celebration" aria-hidden="true"></div>
+          <img id="photo" alt="Us together" src="assets/our-photo.jpg" />
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
